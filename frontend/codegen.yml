@@ -1,0 +1,6 @@
+schema: https://kernn.herokuapp.com/graphql
+overwrite: true
+generates:
+  ./fragmentTypes.json:
+    plugins:
+      - fragment-matcher

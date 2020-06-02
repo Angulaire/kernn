@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "jobs",
+  "info": {
+    "name": "job"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "location_town": {
+      "type": "string"
+    },
+    "contract": {
+      "type": "string"
+    },
+    "company_description": {
+      "type": "richtext"
+    },
+    "job_category": {
+      "via": "jobs",
+      "model": "job-category"
+    },
+    "profil_description": {
+      "type": "richtext"
+    },
+    "mission_description": {
+      "type": "richtext"
+    },
+    "salary": {
+      "type": "integer"
+    },
+    "experience": {
+      "type": "integer"
+    }
+  }
+}

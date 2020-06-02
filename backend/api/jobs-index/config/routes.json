@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jobs-index",
+      "handler": "jobs-index.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jobs-index",
+      "handler": "jobs-index.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jobs-index",
+      "handler": "jobs-index.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

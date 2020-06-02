@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_section_hero_pages",
+  "info": {
+    "name": "Hero Page",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

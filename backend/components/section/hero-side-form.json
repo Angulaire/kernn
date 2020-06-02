@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_section_hero_side_forms",
+  "info": {
+    "name": "Hero Side Form",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

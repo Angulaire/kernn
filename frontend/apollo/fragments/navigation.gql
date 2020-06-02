@@ -1,0 +1,4 @@
+fragment NavigationFragment on Navigation {
+  header
+  footer
+}

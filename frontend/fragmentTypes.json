@@ -1,0 +1,108 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "UNION",
+        "name": "Morph",
+        "possibleTypes": [
+          {
+            "name": "UsersPermissionsMe"
+          },
+          {
+            "name": "UsersPermissionsMeRole"
+          },
+          {
+            "name": "UsersPermissionsLoginPayload"
+          },
+          {
+            "name": "Article"
+          },
+          {
+            "name": "createArticlePayload"
+          },
+          {
+            "name": "updateArticlePayload"
+          },
+          {
+            "name": "deleteArticlePayload"
+          },
+          {
+            "name": "Category"
+          },
+          {
+            "name": "createCategoryPayload"
+          },
+          {
+            "name": "updateCategoryPayload"
+          },
+          {
+            "name": "deleteCategoryPayload"
+          },
+          {
+            "name": "Job"
+          },
+          {
+            "name": "createJobPayload"
+          },
+          {
+            "name": "updateJobPayload"
+          },
+          {
+            "name": "deleteJobPayload"
+          },
+          {
+            "name": "Page"
+          },
+          {
+            "name": "createPagePayload"
+          },
+          {
+            "name": "updatePagePayload"
+          },
+          {
+            "name": "deletePagePayload"
+          },
+          {
+            "name": "UploadFile"
+          },
+          {
+            "name": "UsersPermissionsPermission"
+          },
+          {
+            "name": "UsersPermissionsRole"
+          },
+          {
+            "name": "createRolePayload"
+          },
+          {
+            "name": "updateRolePayload"
+          },
+          {
+            "name": "deleteRolePayload"
+          },
+          {
+            "name": "UsersPermissionsUser"
+          },
+          {
+            "name": "createUserPayload"
+          },
+          {
+            "name": "updateUserPayload"
+          },
+          {
+            "name": "deleteUserPayload"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "PageContentDynamicZone",
+        "possibleTypes": [
+          {
+            "name": "ComponentSectionHeroSideForm"
+          }
+        ]
+      }
+    ]
+  }
+}

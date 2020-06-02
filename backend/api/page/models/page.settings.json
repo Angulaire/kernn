@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "section.hero-side-form",
+        "section.categories",
+        "section.testimonials",
+        "section.hero"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

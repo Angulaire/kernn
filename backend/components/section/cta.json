@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "components_section_ctas",
+  "info": {
+    "name": "Cta",
+    "icon": "hand-point-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "categoriesList": {
+      "type": "json"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.button"
+    }
+  }
+}

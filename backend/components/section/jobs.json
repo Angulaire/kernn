@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_section_jobs",
+  "info": {
+    "name": "Jobs",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

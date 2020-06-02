@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_section_categories",
+  "info": {
+    "name": "Categories",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "job_categories": {
+      "collection": "job-category"
+    }
+  }
+}

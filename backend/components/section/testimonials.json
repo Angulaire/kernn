@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "components_section_testimonials",
+  "info": {
+    "name": "Testimonials",
+    "icon": "comment"
+  },
+  "options": {},
+  "attributes": {
+    "testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data-display.testimonial-card"
+    }
+  }
+}

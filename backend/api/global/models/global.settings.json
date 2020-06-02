@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "globals",
+  "info": {
+    "name": "Global"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 60
+    },
+    "Description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 160
+    },
+    "URL": {
+      "type": "string",
+      "default": "https://domain.com",
+      "required": true
+    }
+  }
+}

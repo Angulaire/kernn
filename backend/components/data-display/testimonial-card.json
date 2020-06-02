@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "components_data_display_testimonial_cards",
+  "info": {
+    "name": "testimonialCard",
+    "icon": "comment-dots"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imageThumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}

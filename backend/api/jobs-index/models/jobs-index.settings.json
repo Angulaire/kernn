@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "jobs_indices",
+  "info": {
+    "name": "Jobs Index"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.cta"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.hero-page"
+    }
+  }
+}

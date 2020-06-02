@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "components_section_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

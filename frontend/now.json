@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "APPBASE_APP_ID": "@appbase_app_id",
+      "APPBASE_API_URL": "@appbase_api_url",
+      "APPBASE_API_KEY": "@appbase_api_key",
+      "API_BASE_URL": "@api_base_url",
+      "SENDGRID_API_KEY": "@sendgrid_api_key",
+      "CLOUDINARY_CLOUD_NAME": "@cloudinary_cloud_name"
+    }
+  }
+}
