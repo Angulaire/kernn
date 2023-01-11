@@ -15,7 +15,7 @@
     "faker": "^4.1.0",
     "fast-xml-parser": "^3.16.0",
     "isomorphic-unfetch": "^3.0.0",
-    "knex": "<0.20.0",
+    "knex": "<2.5.0",
     "papaparse": "^5.1.1",
     "pg": "^7.18.1",
     "sqlite3": "latest",
